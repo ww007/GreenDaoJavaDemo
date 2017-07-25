@@ -7,6 +7,6 @@
 	<classpathentry exported="true" kind="con" path="org.springsource.ide.eclipse.gradle.classpathcontainer"/>
 	<classpathentry kind="con" path="org.springsource.ide.eclipse.gradle.dsld.classpathcontainer"/>
 	<classpathentry kind="lib" path="freemarker.jar"/>
-	<classpathentry kind="lib" path="greendao-generator-1.3.1.jar"/>
+	<classpathentry kind="lib" path="greendao-generator-1.3.1.jar" sourcepath="C:/Users/ww/AppData/Local/Temp/decompiler/source/greendao-generator-1.3.1-sources.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

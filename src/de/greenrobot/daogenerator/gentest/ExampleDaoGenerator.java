@@ -127,7 +127,7 @@ public class ExampleDaoGenerator {
 
 		Entity roundResult = schema.addEntity("RoundResult");// RoundResult:生成的实体类类名
 		roundResult.addLongProperty("RoundResultID").primaryKey().autoincrement();
-		Property roundResultProperty = roundResult.addLongProperty("StudentItemID").notNull().getProperty();
+		Property roundResultProperty = roundResult.addLongProperty("StudentItemID").getProperty();
 		roundResult.addStringProperty("studentCode");
 		roundResult.addStringProperty("itemCode");
 		roundResult.addIntProperty("Result");
@@ -172,7 +172,7 @@ public class ExampleDaoGenerator {
 
 		Entity totalRoundResult = schema.addEntity("TotalRoundResult");// TotalRoundResult:生成的实体类类名
 		totalRoundResult.addLongProperty("RoundResultID").primaryKey().autoincrement();
-		Property totalRoundResultProperty = totalRoundResult.addLongProperty("StudentItemID").notNull().getProperty();
+		Property totalRoundResultProperty = totalRoundResult.addLongProperty("StudentItemID").getProperty();
 		totalRoundResult.addStringProperty("studentCode");
 		totalRoundResult.addStringProperty("itemCode");
 		totalRoundResult.addIntProperty("Result");
